@@ -1,0 +1,34 @@
+body {
+	padding: 20px;
+	padding-top: 80px;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+}
+
+[data-role="button"] {
+	font-size: 50px;
+	text-decoration: none;
+	background-color: #333;
+	border-radius: 100%;
+	color: white;
+	width: 280px;
+	height: 280px;
+	line-height: 280px;
+	text-align: center;
+	display: inline-block;
+	outline: 0;
+	margin-bottom: 20px;
+}
+
+[data-role="button"][data-win="false"] {
+	background-color: red;
+}
+
+[data-role="button"][data-win="true"] {
+	background-color: green;
+}
+
+[data-role="deposit"] {
+	margin: 0 5px;
+}
